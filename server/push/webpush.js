@@ -3,6 +3,7 @@
 // and put the values in your .env (see .env.example).
 const webpush = require('web-push');
 const db = require('../db');
+const { startOfDayLagos, endOfDayLagos } = require('../lib/time');
 
 const PUBLIC_KEY = process.env.VAPID_PUBLIC_KEY || '';
 const PRIVATE_KEY = process.env.VAPID_PRIVATE_KEY || '';
@@ -64,10 +65,8 @@ async function sendToAll(payload) {
 
 async function sendMorningDigest() {
   const now = new Date();
-  const todayStart = new Date(now);
-  todayStart.setHours(0, 0, 0, 0);
-  const todayEnd = new Date(now);
-  todayEnd.setHours(23, 59, 59, 999);
+  const todayStart = startOfDayLagos(now);
+  const todayEnd = endOfDayLagos(now);
 
   const todaysEvents = db
     .getEvents()

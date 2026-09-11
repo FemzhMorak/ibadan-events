@@ -1,19 +1,8 @@
 const express = require('express');
 const db = require('../db');
+const { startOfDayLagos, endOfDayLagos } = require('../lib/time');
 
 const router = express.Router();
-
-function startOfDay(date) {
-  const d = new Date(date);
-  d.setHours(0, 0, 0, 0);
-  return d;
-}
-
-function endOfDay(date) {
-  const d = new Date(date);
-  d.setHours(23, 59, 59, 999);
-  return d;
-}
 
 function haversineKm(lat1, lng1, lat2, lng2) {
   const R = 6371;
@@ -29,14 +18,14 @@ function upcomingEvents() {
   const now = new Date();
   return db
     .getEvents()
-    .filter((e) => e.startDate && new Date(e.startDate) >= startOfDay(now))
+    .filter((e) => e.startDate && new Date(e.startDate) >= startOfDayLagos(now))
     .sort((a, b) => new Date(a.startDate) - new Date(b.startDate));
 }
 
 router.get('/today', (req, res) => {
   const now = new Date();
-  const todayStart = startOfDay(now);
-  const todayEnd = endOfDay(now);
+  const todayStart = startOfDayLagos(now);
+  const todayEnd = endOfDayLagos(now);
   const events = upcomingEvents().filter((e) => {
     const d = new Date(e.startDate);
     return d >= todayStart && d <= todayEnd;
@@ -46,8 +35,8 @@ router.get('/today', (req, res) => {
 
 router.get('/thisweek', (req, res) => {
   const now = new Date();
-  const weekEnd = endOfDay(new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000));
-  const tomorrowStart = startOfDay(new Date(now.getTime() + 24 * 60 * 60 * 1000));
+  const weekEnd = endOfDayLagos(new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000));
+  const tomorrowStart = startOfDayLagos(new Date(now.getTime() + 24 * 60 * 60 * 1000));
   const events = upcomingEvents().filter((e) => {
     const d = new Date(e.startDate);
     return d >= tomorrowStart && d <= weekEnd;
