@@ -1,0 +1,797 @@
+{
+  "events": [
+    {
+      "id": "200030439115450",
+      "name": "an unforgettable night of music, vibes and pure entertainment",
+      "url": "https://allevents.in/ibadan/an-unforgettable-night-of-music-vibes-and-pure-entertainment/200030439115450",
+      "bannerImage": null,
+      "description": "No description provided for this event.",
+      "category": [
+        "concerts",
+        "live music",
+        "parties",
+        "performances",
+        "entertainment",
+        "music"
+      ],
+      "venue": "Agodi, Ibadan",
+      "address": "Agodi, Ibadan",
+      "startDate": null,
+      "endDate": null,
+      "dateText": "Sun, 13 Sep, 2026 - 08:00 AM",
+      "interestedLabel": "37+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3977091,
+      "lng": 3.9218427,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:27.708Z"
+    },
+    {
+      "id": "200030425295025",
+      "name": "Champions League",
+      "url": "https://allevents.in/ibadan/champions-league/200030425295025",
+      "bannerImage": null,
+      "description": "No description provided for this event.",
+      "category": [
+        "sports",
+        "football"
+      ],
+      "venue": "Gate, Ibadan",
+      "address": "Gate, Ibadan",
+      "startDate": null,
+      "endDate": null,
+      "dateText": "Fri, 16 Oct, 2026 - 08:00 AM",
+      "interestedLabel": "23+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3977091,
+      "lng": 3.9218427,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:52.214Z"
+    },
+    {
+      "id": "200030295404639",
+      "name": "Oyo Waste Summit 3.0",
+      "url": "https://allevents.in/ibadan/oyo-waste-summit-30/200030295404639",
+      "bannerImage": "https://cdn-az.allevents.in/events2/banners/4ec3cc47829ab76ffbdf2e37839b0439ae6bfd06be39e29accfe18ada2299aaa-rimg-w1080-h1350-dce8f8d8-gmir?v=1788240290",
+      "description": "Oyo Waste Summit (OYWS) is a flagship program for environmentalists & individuals that generates Waste in Nigeria.\n\nNow in its third edition, this event holds annually in Ibadan, Oyo State in commemoration of the World Clean-Up Day. \n\nLargely driven by private sector but in collaboration with the Oy",
+      "category": [
+        "environmentalism",
+        "workshops"
+      ],
+      "venue": "Ibadan, Nigeria",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-09-16T09:00:00+01:00",
+      "endDate": "2026-09-17T03:00:00+01:00",
+      "dateText": "Wed, 16 Sep, 2026 - 09:00 AM",
+      "interestedLabel": "31+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3964,
+      "lng": 3.9167,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:21.732Z"
+    },
+    {
+      "id": "200030685322643",
+      "name": "Weekly study",
+      "url": "https://allevents.in/ibadan/weekly-study/200030685322643",
+      "bannerImage": "https://cdn-az.allevents.in/events3/banners/c80f98b510c2e85ba1f41a92045b81c9d38ee9e05ec319d7945c3e4fc0e3eb19-rimg-w622-h621-dc080808-gmir?v=1789099003",
+      "description": "Urban Hill International is live.\nA teaching and discipleship ministry for believers seeking clarity, depth, and faith that works in real life.\nJoin our weekly online teachings as we grow into spiritually mature, purpose-driven believers.\nLink in comments 👇🏽👇🏽",
+      "category": [
+        "bible study",
+        "education"
+      ],
+      "venue": "Agodi, Ibadan",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-09-17T20:00:00+01:00",
+      "endDate": "2026-09-17T21:00:00+01:00",
+      "dateText": "Thu, 17 Sep, 2026 - 08:00 PM",
+      "interestedLabel": null,
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3996927128554,
+      "lng": 3.9211964442066,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:26.516Z"
+    },
+    {
+      "id": "100001995076763305",
+      "name": "Leveling Up Vol. 1 A Creative Skills Masterclass by Cre8Kulture",
+      "url": "https://allevents.in/ibadan/leveling-up-vol-1-a-creative-skills-masterclass-by-cre8kulture/100001995076763305",
+      "bannerImage": "https://cdn-az.allevents.in/events3/banners/3b166b78e86f2fdc63924786af9a1b3f2ddb8f23713cde57a0ecfa276ffdbc9b-rimg-w1024-h1536-dceadfc9-gmir.jpg?v=1784997469",
+      "description": "Leveling Up is a 2-days immersive boot camp designed for aspiring and growing creatives who want to sharpen their craft.",
+      "category": [
+        "general"
+      ],
+      "venue": "VeritasFrame",
+      "address": "15 Adewaku Avenue, Ibadan, OY",
+      "startDate": "2026-09-18T10:00:00+01:00",
+      "endDate": "2026-09-18T16:00:00+01:00",
+      "dateText": "Fri, 18 Sep, 2026 - 10:00 AM",
+      "interestedLabel": "6+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "USD 50"
+      },
+      "lat": 7.4254138,
+      "lng": 3.9905587,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:18.906Z"
+    },
+    {
+      "id": "100001998886798222",
+      "name": "Bellator Nigeria Event",
+      "url": "https://allevents.in/ibadan/bellator-nigeria-event/100001998886798222",
+      "bannerImage": "https://cdn-az.allevents.in/events10/banners/094ef90c41e49ce00ee34c4d062575d19a22c8f9798ed195d8ecb38a34050640-rimg-w1024-h1536-dc080808-gmir.jpg?v=1787725885",
+      "description": "Get ready for epic fights and wild action at the Bellator Nigeria Event – live and loud in person!",
+      "category": [
+        "martial arts",
+        "sports",
+        "education",
+        "cryptocurrency"
+      ],
+      "venue": "Mauve21 Hotel and Events Center",
+      "address": "MKO Abiola Way, Ibadan, YO",
+      "startDate": "2026-09-23T14:00:00+01:00",
+      "endDate": "2026-09-23T17:00:00+01:00",
+      "dateText": "Wed, 23 Sep, 2026 - 02:00 PM",
+      "interestedLabel": null,
+      "price": {
+        "type": "free",
+        "label": "Free"
+      },
+      "lat": 7.3594163,
+      "lng": 3.870873,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:24.324Z"
+    },
+    {
+      "id": "100001993718161691",
+      "name": "Study Now Xperience Ibadan",
+      "url": "https://allevents.in/ibadan/study-now-xperience-ibadan/100001993718161691",
+      "bannerImage": "https://cdn-az.allevents.in/events9/banners/ccc30ac8e00912a7487d6d60b31a68dbfa655d272ac0ae196e9bb564a798c6ec-rimg-w1200-h675-dcf6eff6-gmir.jpg?v=1783994052",
+      "description": "Meet UK, Irish, US and European universities face to face. Free advice on courses, scholarships, visas and entry. 9am to 4pm.",
+      "category": [
+        "education",
+        "exhibitions"
+      ],
+      "venue": "Mauve21 Hotel and Events Center",
+      "address": "MKO Abiola Way, Ibadan, YO",
+      "startDate": "2026-09-26T09:00:00+01:00",
+      "endDate": "2026-09-26T16:00:00+01:00",
+      "dateText": "Sat, 26 Sep, 2026 - 09:00 AM",
+      "interestedLabel": "4+ Interested",
+      "price": {
+        "type": "free",
+        "label": "Free"
+      },
+      "lat": 7.3594163,
+      "lng": 3.870873,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:17.782Z"
+    },
+    {
+      "id": "100001998387956172",
+      "name": "Hangout With June Butterfly 2026",
+      "url": "https://allevents.in/ibadan/hangout-with-june-butterfly-2026/100001998387956172",
+      "bannerImage": "https://cdn-az.allevents.in/events10/banners/a538c40f27551a2a1f827b1280052080a867d0036c3f3856bb5620981652a501-rimg-w1200-h1348-dcf8f8f8-gmir.jpg?v=1787192408",
+      "description": "Hangout for a time of creativity and worship filled with relaxing activities",
+      "category": [
+        "poetry",
+        "mindfulness",
+        "bible study",
+        "writing"
+      ],
+      "venue": "Obasanmi Olakanpo Street",
+      "address": "Obasanmi Olakanpo Street, Ibadan, YO",
+      "startDate": "2026-09-26T15:00:00+01:00",
+      "endDate": "2026-09-26T18:00:00+01:00",
+      "dateText": "Sat, 26 Sep, 2026 - 03:00 PM",
+      "interestedLabel": null,
+      "price": {
+        "type": "free",
+        "label": "Free"
+      },
+      "lat": 7.416483200000001,
+      "lng": 3.8984171,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:38.813Z"
+    },
+    {
+      "id": "200030594510546",
+      "name": "IBADAN CITY DANCE PARTY",
+      "url": "https://allevents.in/ibadan/ibadan-city-dance-party/200030594510546",
+      "bannerImage": "https://cdn-az.allevents.in/events7/banners/8ba56fb417ba6ad60d0cbf5963c99df8b9d98a5ba0ae93301f781fd28371d154-rimg-w863-h1220-dc080808-gmir?v=1788249778",
+      "description": "A3 Hotels opposite VENTURA mall Samonda Ibadan.\n\nhttps://selar.com/yve181144l\n\nBook your ticket Now!!👆👆👆",
+      "category": [
+        "parties"
+      ],
+      "venue": "Samonda, Ibadan.",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-09-26T16:00:00+01:00",
+      "endDate": null,
+      "dateText": "Sat, 26 Sep, 2026 - 04:00 PM",
+      "interestedLabel": "14+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.434427,
+      "lng": 3.903418,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:19.993Z"
+    },
+    {
+      "id": "100001995080728164",
+      "name": "WAPX 2.0 — Worship & Praise Xperience (Testimony Edition)",
+      "url": "https://allevents.in/ibadan/wapx-20-worship-and-praise-xperience-testimony-edition/100001995080728164",
+      "bannerImage": "https://cdn-az.allevents.in/events2/banners/dfd4fb6f18f50db6daa75a980b8ad1677a331f2b8e497be2ca101bac651afe76-rimg-w1200-h600-dcf8f8f8-gmir.jpg?v=1787428120",
+      "description": "WAPX is a worship concert where students and youth gather for worship, praise, testimonies, and transformed lives.",
+      "category": [
+        "concerts",
+        "music",
+        "entertainment"
+      ],
+      "venue": "Trenchard Hall UI Ibadan",
+      "address": "Mellanby Hall Road, Ibadan, YO",
+      "startDate": "2026-09-27T13:00:00+01:00",
+      "endDate": "2026-09-27T18:00:00+01:00",
+      "dateText": "Sun, 27 Sep, 2026 - 01:00 PM",
+      "interestedLabel": null,
+      "price": {
+        "type": "free",
+        "label": "Free"
+      },
+      "lat": 7.445003600000001,
+      "lng": 3.9000212,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:16.321Z"
+    },
+    {
+      "id": "200030536131648",
+      "name": "football Updates",
+      "url": "https://allevents.in/ibadan/football-updates/200030536131648",
+      "bannerImage": "https://cdn-az.allevents.in/events7/banners/2668a70189f08bb625e583ce74c15152eedfa3dbdf5db40332907eb89e8c1c63-rimg-w1080-h1350-dcf8f8f8-gmir?v=1788188714",
+      "description": "🚨 𝐁𝐑𝐄𝐀𝐊𝐈𝐍𝐆: Olympique Lyon and Real Madrid are 𝒄𝒍𝒐𝒔𝒆 to agree terms for Endrick loan! 🇧🇷\n\nExclusive story from October, confirmed: Endrick want Lyon move on loan and Real Madrid are set to approve.\n\nNegotiations at 𝒂𝒅𝒗𝒂𝒏𝒄𝒆𝒅 𝒔𝒕𝒂𝒈𝒆𝒔, straight loan as 𝒏𝒐 buy option clause will be included in the agreem",
+      "category": [
+        "football",
+        "sports"
+      ],
+      "venue": "Agodi, Ibadan",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-10-01T08:00:00+01:00",
+      "endDate": null,
+      "dateText": "Thu, 01 Oct, 2026 - 08:00 AM",
+      "interestedLabel": "68+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3996927128554,
+      "lng": 3.9211964442066,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:48.888Z"
+    },
+    {
+      "id": "200030440109829",
+      "name": "Abeniola",
+      "url": "https://allevents.in/ibadan/abeniola/200030440109829",
+      "bannerImage": "https://cdn-az.allevents.in/events3/banners/8c21d49639a59280f1dea9de3a5844b89bbe03a9a748cbbabf2c7772b07aa272-rimg-w1200-h1600-dc282828-gmir?v=1788188721",
+      "description": "You guys should meet my boss #photographychallenge #trend #goodvibes",
+      "category": [
+        "general"
+      ],
+      "venue": "Ibadan, Nigeria",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-10-16T08:00:00+01:00",
+      "endDate": null,
+      "dateText": "Fri, 16 Oct, 2026 - 08:00 AM",
+      "interestedLabel": "35+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3964,
+      "lng": 3.9167,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:36.562Z"
+    },
+    {
+      "id": "100001997724124634",
+      "name": "The Idea Nexus Conference 2026 - Momentum: Sustaining the In-btwns",
+      "url": "https://allevents.in/ibadan/the-idea-nexus-conference-2026-momentum-sustaining-the-in-btwns/100001997724124634",
+      "bannerImage": "https://cdn-az.allevents.in/events2/banners/9188e59dbc11e7fcb70c99ae0a5be1f3ede6328fcaa7f4176347231426af5a64-rimg-w1200-h1499-dc080808-gmir.jpg?v=1786642841",
+      "description": "A gathering for creatives, builders, founders, and changemakers who are navigating the space between where they are and want to be.",
+      "category": [
+        "conferences",
+        "entrepreneurship",
+        "startup",
+        "education",
+        "leadership",
+        "business"
+      ],
+      "venue": "Lead City University, Ibadan",
+      "address": "Off Oba Otudeko Avenue, Ibadan, YO",
+      "startDate": "2026-10-16T10:00:00+01:00",
+      "endDate": "2026-10-16T15:00:00+01:00",
+      "dateText": "Fri, 16 Oct, 2026 - 10:00 AM",
+      "interestedLabel": "11+ Interested",
+      "price": {
+        "type": "free",
+        "label": "Free"
+      },
+      "lat": 7.3264707,
+      "lng": 3.8765109,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:23.008Z"
+    },
+    {
+      "id": "100002000278422608",
+      "name": "EPHPHATA  WORSHIP REVIVAL",
+      "url": "https://allevents.in/ibadan/ephphata-worship-revival/100002000278422608",
+      "bannerImage": "https://cdn-az.allevents.in/events6/banners/54e90f10faf3290e6554671a3b392cd99a31b7ef8e9e5ada5ef36cd0c9415429-rimg-w1200-h1500-dcf8f8f8-gmir.jpg?v=1788981383",
+      "description": "Get ready to encounter God and join an unforgettable worship revival that will lift you higher and leave you refreshed.",
+      "category": [
+        "conferences",
+        "workshops",
+        "bible study",
+        "kirtan",
+        "parties"
+      ],
+      "venue": "tafo arena",
+      "address": "sango, Ibadan, YO",
+      "startDate": "2026-10-16T20:00:00+01:00",
+      "endDate": "2026-10-16T23:30:00+01:00",
+      "dateText": "Fri, 16 Oct, 2026 - 08:00 PM",
+      "interestedLabel": null,
+      "price": {
+        "type": "free",
+        "label": "Free"
+      },
+      "lat": 7.423291300000001,
+      "lng": 3.8986829,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:28.792Z"
+    },
+    {
+      "id": "200030429945241",
+      "name": "7th Oodua Special Recognition Awards ile ife Osun State 2026",
+      "url": "https://allevents.in/ibadan/7th-oodua-special-recognition-awards-ile-ife-osun-state-2026/200030429945241",
+      "bannerImage": "https://cdn-az.allevents.in/events4/banners/e4fa52c1fd563cfdfe9313c4bfcc90e58002b2073e21a8717bd045983a3f8c2a-rimg-w895-h816-dcf8f8f8-gmir?v=1788172344",
+      "description": "*THE 7TH OODUA SPECIAL RECOGNITION AWARDS //GALA NIGHT* \n (OSRA AWARDS  ILE -IFE 2026  )  The Oodua Special Recognition Awards ile ife Osun State (  OSRA AWARDS ) \n\nThe Oodua Special Recognition Award is a ceremony always put  together for the commemoration of personalities whose meritorious service",
+      "category": [
+        "entrepreneurship",
+        "education",
+        "entertainment",
+        "performing arts",
+        "parties",
+        "business"
+      ],
+      "venue": "Osun state Ile ife",
+      "address": "Ife, Oyo, Nigeria, Ibadan, OY",
+      "startDate": "2026-10-18T19:01:00+01:00",
+      "endDate": null,
+      "dateText": "Sun, 18 Oct, 2026 - 07:01 PM",
+      "interestedLabel": "24+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.49106593717,
+      "lng": 4.54962592269,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:25.419Z"
+    },
+    {
+      "id": "200030565018553",
+      "name": "WISDOM AND PRAYER CONFERENCE 2026",
+      "url": "https://allevents.in/ibadan/wisdom-and-prayer-conference-2026/200030565018553",
+      "bannerImage": "https://cdn-az.allevents.in/events8/banners/85cd3966bb1f597a888eeb12be802feceece00f0b0a24d9d4d10e047835c76c6-rimg-w960-h960-dc080808-gmir?v=1788217277",
+      "description": "EXCERPTS FROM WISDOM AND PRAYER CONFERENCE 2026 WITH GOD'S SERVANT, REV. DR. TINA NWOBODO.\nMonday, 19th-Sunday, 25th January 2026.\n\nBelieve,\nReceive and enjoy different shades of God's glory from the conference as it came to a superb wrap on Sunday, 25th January 2026.\n\nFor partnership and goodwill o",
+      "category": [
+        "general"
+      ],
+      "venue": "Agodi, Ibadan",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-10-19T00:00:00+01:00",
+      "endDate": null,
+      "dateText": "Mon, 19 Oct, 2026 - 12:00 AM",
+      "interestedLabel": "5+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3996927128554,
+      "lng": 3.9211964442066,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:32.212Z"
+    },
+    {
+      "id": "200030512322105",
+      "name": "Corpers and I.T students hangout",
+      "url": "https://allevents.in/ibadan/corpers-and-it-students-hangout/200030512322105",
+      "bannerImage": "https://cdn-az.allevents.in/events10/banners/946f253a0c077228af42b72c74ad43960532274f0aa3acf19e5e8413bd096c6d-rimg-w1080-h572-dcf8f8f8-gmir?v=1787547305",
+      "description": "Throwback pictures of July corpers and I.T students hangout Living Faith Church Idi Ayunre  .",
+      "category": [
+        "meetups",
+        "technology"
+      ],
+      "venue": "Agodi, Ibadan",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-10-19T22:00:00+01:00",
+      "endDate": null,
+      "dateText": "Mon, 19 Oct, 2026 - 10:00 PM",
+      "interestedLabel": "24+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3996927128554,
+      "lng": 3.9211964442066,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:35.483Z"
+    },
+    {
+      "id": "200030466387418",
+      "name": "Blessings for today by the father of all creations SATGURU MAHARAJ JI.",
+      "url": "https://allevents.in/ibadan/blessings-for-today-by-the-father-of-all-creations-satguru-maharaj-ji/200030466387418",
+      "bannerImage": "https://cdn-az.allevents.in/events4/banners/d2208e0dd00be0dfc8509b52bd85f474db68ee6a22c430116340c9dc09a834f5-rimg-w1200-h1600-dcf8f8f8-gmir?v=1788188721",
+      "description": "The father of all creations SATGURU MAHARAJ JI as we enter this day Saturday 24th of October 2o25, let your grace go before us and your mercy follow us in all we do..May this day brings testimonies of favours, protections and victory today, tomorrow and a day after FOREVER.",
+      "category": [
+        "kirtan"
+      ],
+      "venue": "Agodi, Ibadan",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-10-24T08:00:00+01:00",
+      "endDate": null,
+      "dateText": "Sat, 24 Oct, 2026 - 08:00 AM",
+      "interestedLabel": "46+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3996927128554,
+      "lng": 3.9211964442066,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:44.019Z"
+    },
+    {
+      "id": "200030524392417",
+      "name": "2026 Annual Harvest Thanksgiving & Bazaar Celebration",
+      "url": "https://allevents.in/ibadan/2026-annual-harvest-thanksgiving-and-bazaar-celebration/200030524392417",
+      "bannerImage": "https://cdn-az.allevents.in/events6/banners/aab8f58d02d440a1db6d2da25cef8da49cecf64053ab9028e7bd7ab0522e14bc-rimg-w675-h1080-dcf8f8f8-gmir?v=1787444152",
+      "description": "�� You’re Invited to Our 2026 Annual Harvest Thanksgiving & Bazaar Celebration! ��\n\nJoin us at the glorious 2026 Annual Harvest Thanksgiving, Raffle Draw & Bazaar of St. Agnes Parish, Papa Laogun, Apete, Ibadan, as we gather in thanksgiving to God for His faithfulness over us all. ���\n\nExpect a joyf",
+      "category": [
+        "thanksgiving",
+        "parties"
+      ],
+      "venue": "St. Agnes Catholic Church, adjacent the gift heights, Papa-Laogun, Apete, Ibadan, Ibadan, Nigeria",
+      "address": "Saint Agnes Catholic Church, Papa Laogun Rd, Akinyele, Nigeria, Ibadan, OY",
+      "startDate": "2026-11-08T10:00:00+01:00",
+      "endDate": "2026-11-08T17:00:00+01:00",
+      "dateText": "Sun, 08 Nov, 2026 - 10:00 AM",
+      "interestedLabel": "13+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.44249,
+      "lng": 3.869,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:33.290Z"
+    },
+    {
+      "id": "200030568907151",
+      "name": "Mahadul Bushrah 2025 Muzabaqoh 1st day [Part 1]",
+      "url": "https://allevents.in/ibadan/mahadul-bushrah-2025-muzabaqoh-1st-day-part-1/200030568907151",
+      "bannerImage": "https://cdn-az.allevents.in/events7/banners/76aa20bec3addb341de5a47bdaac473e0a41feb56830e6bb81769966cdd1b46f-rimg-w1200-h900-dcd8d8d8-gmir?v=1788188712",
+      "description": "AL-BUSHRAH INSTITUTE FOR QUR'ÄN MEMORIZATION\n 2025 MUZABAQOH  1ST DAY [ SATURDAY 14 OF NOV, 2025 ]",
+      "category": [
+        "education"
+      ],
+      "venue": "Akowo Central Mosque, Akowo Road B, Apete, Awotan, Akufo Road, Ibadan , Ibadan, Nigeria",
+      "address": "Moboluwaduro Central Mosque, Akobo Rd, Akinyele, Nigeria, Ibadan, OY",
+      "startDate": "2026-11-14T09:00:00+01:00",
+      "endDate": null,
+      "dateText": "Sat, 14 Nov, 2026 - 09:00 AM",
+      "interestedLabel": "26+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.44577,
+      "lng": 3.95167,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:42.874Z"
+    },
+    {
+      "id": "100001997146634345",
+      "name": "FINEST WORSHIP 2026",
+      "url": "https://allevents.in/ibadan/finest-worship-2026/100001997146634345",
+      "bannerImage": "https://dyn-image.allevents.in/generate-image?v=4&title=FINEST+WORSHIP+2026&date=Fri%2C+20+Nov%2C+2026+at+10%3A00+pm&bg=1",
+      "description": "Finest Worship is an all- night annual worship event where men and women gather to lift up holy hands and voices in powerful praises to God",
+      "category": [
+        "music"
+      ],
+      "venue": "GLT Campground, Ijebu-Ode Road, off Lagos-Ibadan Expressway, Ibadan, Oyo State",
+      "address": "GLT Campground, Ijebu-Ode Road, off Lagos-Ibadan Expressway., Ibadan, OY",
+      "startDate": "2026-11-20T22:00:00+01:00",
+      "endDate": "2026-11-21T05:30:00+01:00",
+      "dateText": "Fri, 20 Nov, 2026 - 10:00 PM",
+      "interestedLabel": null,
+      "price": {
+        "type": "free",
+        "label": "Free"
+      },
+      "lat": 7.2896013,
+      "lng": 3.8638238,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:31.140Z"
+    },
+    {
+      "id": "100001999658519461",
+      "name": "Bald and Bold: The gathering",
+      "url": "https://allevents.in/ibadan/bald-and-bold-the-gathering/100001999658519461",
+      "bannerImage": "https://cdn-az.allevents.in/events9/banners/8405ad1241ea3871abf5db7f3245e860683888e1254ed7cf5919cb20b5edbcfd-rimg-w1122-h1402-dc281848-gmir.jpg?v=1788480179",
+      "description": "A celebration of Bald ladies by Choice or Alopecia. We will bond over food, Karaoke, Live Music by a Female Afrobeat Artist and our stories.",
+      "category": [
+        "meetups",
+        "karaoke",
+        "live music",
+        "food drinks",
+        "live music"
+      ],
+      "venue": "Ibadan",
+      "address": "To be communicated, Ibadan, OY",
+      "startDate": "2026-11-22T04:00:00+01:00",
+      "endDate": "2026-11-22T07:00:00+01:00",
+      "dateText": "Sun, 22 Nov, 2026 - 04:00 AM",
+      "interestedLabel": null,
+      "price": {
+        "type": "paid",
+        "label": "USD 13"
+      },
+      "lat": 7.3775355,
+      "lng": 3.9470396,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:40.997Z"
+    },
+    {
+      "id": "200030468817047",
+      "name": "ThanksGiving Service",
+      "url": "https://allevents.in/ibadan/thanksgiving-service/200030468817047",
+      "bannerImage": "https://cdn-az.allevents.in/events2/banners/a97ecf501a996852e4a05ca842c25127036a72ad6217582725201408615a2d25-rimg-w1080-h1080-dcf8f8f8-gmir?v=1788304630",
+      "description": "🌟 Special First Sunday Thanksgiving Service 🌟\nJoin us as we give thanks to God for His faithfulness and begin the year in praise.",
+      "category": [
+        "thanksgiving",
+        "bible study"
+      ],
+      "venue": "Agodi, Ibadan",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-11-26T00:00:00+01:00",
+      "endDate": null,
+      "dateText": "Thu, 26 Nov, 2026 - 12:00 AM",
+      "interestedLabel": "17+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3996927128554,
+      "lng": 3.9211964442066,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:39.886Z"
+    },
+    {
+      "id": "200030637258822",
+      "name": "SCOAN Thanksgiving Service, 2025",
+      "url": "https://allevents.in/ibadan/scoan-thanksgiving-service-2025/200030637258822",
+      "bannerImage": "https://cdn-az.allevents.in/events6/banners/406894b395b70e4fedae5d0672ca553955465d6ee3b13ad8eed04f7a39e6597f-rimg-w1200-h669-dcd8e8d8-gmir?v=1788188722",
+      "description": "Synagogue Church of All Nations' Thanksgiving Service is Currently Going on, Watch and be Blessed",
+      "category": [
+        "thanksgiving",
+        "bible study"
+      ],
+      "venue": "Agodi, Ibadan",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-11-26T09:00:00+01:00",
+      "endDate": null,
+      "dateText": "Thu, 26 Nov, 2026 - 09:00 AM",
+      "interestedLabel": null,
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3996927128554,
+      "lng": 3.9211964442066,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:30.045Z"
+    },
+    {
+      "id": "200030485145715",
+      "name": "December Thanksgiving",
+      "url": "https://allevents.in/ibadan/december-thanksgiving/200030485145715",
+      "bannerImage": "https://cdn-az.allevents.in/events2/banners/db1a64be230865c26fafd49056e0eb6bcfe94bee8f6da3e3238110593494227f-rimg-w1200-h1500-dcf8f8f8-gmir?v=1787526090",
+      "description": "It’s the grand finale! Join us tomorrow for our December Thanksgiving Service as we return all glory to God for His goodness throughout 2025.\n\nCome with your dancing shoes, a heart of gratitude, and your best praise.\n\nDon’t miss it!!!",
+      "category": [
+        "thanksgiving",
+        "bible study"
+      ],
+      "venue": "ONA-ARA LOCAL GOVERNMENT ROAD, IBADAN, OYO STATE",
+      "address": "Ona Ara Local Government Maternity, Ona-Ara, Nigeria, Ibadan, OY",
+      "startDate": "2026-12-06T08:00:00+01:00",
+      "endDate": null,
+      "dateText": "Sun, 06 Dec, 2026 - 08:00 AM",
+      "interestedLabel": "12+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.34071,
+      "lng": 4.03016,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:34.389Z"
+    },
+    {
+      "id": "200030524203205",
+      "name": "ra",
+      "url": "https://allevents.in/ibadan/ra/200030524203205",
+      "bannerImage": "https://cdn-az.allevents.in/events4/banners/06da02a5170beaae973de105e879834beea2bc6e252c0abb8ad0cd83c99b3a50-rimg-w1200-h1344-dcf8f8f8-gmir?v=1786841401",
+      "description": "30Th Annual Camping Programme \nTheme: The Key the Kingdom \n             Authority and Power for Leadership \nText: 2 Chronicles 1:7-12\nPictures Highlights \n#royalambassdorsofoyobapatistconference#raoyocentralmediacrew#raoyocentralmediacrew#royalambassadorsofoyocentralbaptistassociation@followersRoyal",
+      "category": [
+        "camping",
+        "leadership",
+        "bible study"
+      ],
+      "venue": "Aatan Baptist Church , Oyo, Nigeria",
+      "address": "Atan Baptist Church, Oroki Rd, Oyo West, Nigeria, Ibadan, OY",
+      "startDate": "2026-12-07T00:00:00+01:00",
+      "endDate": null,
+      "dateText": "Mon, 07 Dec, 2026 - 12:00 AM",
+      "interestedLabel": "11+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.86658,
+      "lng": 3.92921,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:45.151Z"
+    },
+    {
+      "id": "200030484818805",
+      "name": "SPRING ANNUAL HARVEST THANKSGIVING",
+      "url": "https://allevents.in/ibadan/spring-annual-harvest-thanksgiving/200030484818805",
+      "bannerImage": "https://cdn-az.allevents.in/events5/banners/f7f03dd8b501e1cf12cbcfe9679200ffe75a3ae9618507231938110557106ae8-rimg-w1200-h686-dcf8f8f8-gmir?v=1788217278",
+      "description": "Join This Sunday as CAC SPRING OF LIFE celebrateS Gods faithfulness in our ANNUAL HARVEST THANKSGIVING SERVICE ...",
+      "category": [
+        "thanksgiving"
+      ],
+      "venue": "5/7 Orirun-Iye Road, Ntabo, Ibaragun, Ifo, Nigeria",
+      "address": "Ibadan, OY",
+      "startDate": "2026-12-12T10:00:00+01:00",
+      "endDate": null,
+      "dateText": "Sat, 12 Dec, 2026 - 10:00 AM",
+      "interestedLabel": "16+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.34283,
+      "lng": 3.96752,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:37.638Z"
+    },
+    {
+      "id": "200030509436325",
+      "name": "CHRISTMAS CAROL",
+      "url": "https://allevents.in/ibadan/christmas-carol/200030509436325",
+      "bannerImage": "https://cdn-az.allevents.in/events9/banners/43bb4b897ffd0506b21c09bd49c18a1d85494e1a33a46229c06104703ce42971-rimg-w1200-h1670-dcf8f8f8-gmir?v=1787353359",
+      "description": "You are warmly invited to our Church Christmas Carol Service, a special time of joyful celebration as we lift our voices in beautiful carols as we celebrate the birth of our Lord and Savior, Jesus Christ. Come and experience an atmosphere of worship, fellowship, and thanksgiving with us.\n\nSee you on",
+      "category": [
+        "christmas",
+        "parties"
+      ],
+      "venue": "Agodi, Ibadan",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-12-20T08:00:00+01:00",
+      "endDate": null,
+      "dateText": "Sun, 20 Dec, 2026 - 08:00 AM",
+      "interestedLabel": "12+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3996927128554,
+      "lng": 3.9211964442066,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:51.100Z"
+    },
+    {
+      "id": "200030595109418",
+      "name": "Christmas outreach Dec 2025",
+      "url": "https://allevents.in/ibadan/christmas-outreach-dec-2025/200030595109418",
+      "bannerImage": "https://cdn-az.allevents.in/events9/banners/d40dfec48ca21ab1c21a05d241f5f51524ee1999c1972c524f65de40f3b8092f-rimg-w1200-h800-dc989898-gmir?v=1787310498",
+      "description": "Christmas outreach Dec 2025",
+      "category": [
+        "christmas"
+      ],
+      "venue": "Agodi, Ibadan",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-12-25T00:00:00+01:00",
+      "endDate": null,
+      "dateText": "Fri, 25 Dec, 2026 - 12:00 AM",
+      "interestedLabel": "9+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3996927128554,
+      "lng": 3.9211964442066,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:47.791Z"
+    },
+    {
+      "id": "200030583739241",
+      "name": "Free pregnancy test",
+      "url": "https://allevents.in/ibadan/free-pregnancy-test/200030583739241",
+      "bannerImage": "https://dyn-image.allevents.in/generate-image?v=4&title=Free+pregnancy+test+&date=Fri%2C+25+Dec%2C+2026+at+09%3A00+am&bg=2",
+      "description": "Christmas and new year is over \nOya come and run a free pregnancy test \n🤸🤸🏃🏃🏃🏃🏃",
+      "category": [
+        "pregnancy",
+        "medical",
+        "christmas",
+        "new year",
+        "health wellness"
+      ],
+      "venue": "Agodi, Ibadan",
+      "address": "Ibadan, Nigeria, Ibadan, OY",
+      "startDate": "2026-12-25T09:00:00+01:00",
+      "endDate": null,
+      "dateText": "Fri, 25 Dec, 2026 - 09:00 AM",
+      "interestedLabel": null,
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.3996927128554,
+      "lng": 3.9211964442066,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:49.992Z"
+    },
+    {
+      "id": "200030477511144",
+      "name": "Nails",
+      "url": "https://allevents.in/ibadan/nails/200030477511144",
+      "bannerImage": "https://cdn-az.allevents.in/events6/banners/b0256e8fee1641f3145249b60b2c4ee8f3918e9497f8274ff0dddd4fa96dc535-rimg-w1200-h1600-dc080808-gmir?v=1786288277",
+      "description": "� New garage ibadan\n #nails",
+      "category": [
+        "general"
+      ],
+      "venue": "New Garage,, Ibadan, Nigeria",
+      "address": "New Garage, Lagelu, Nigeria, Ibadan, OY",
+      "startDate": "2027-01-02T00:00:00+01:00",
+      "endDate": null,
+      "dateText": "Sat, 02 Jan, 2027 - 12:00 AM",
+      "interestedLabel": "11+ Interested",
+      "price": {
+        "type": "paid",
+        "label": "Paid"
+      },
+      "lat": 7.39843,
+      "lng": 3.94988,
+      "approximateLocation": false,
+      "crawledAt": "2026-09-11T13:25:46.717Z"
+    }
+  ],
+  "lastCrawled": "2026-09-11T13:25:52.717Z"
+}

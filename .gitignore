@@ -1,0 +1,7 @@
+node_modules/
+.env
+server/data/events.json
+server/data/venues-cache.json
+server/data/subscriptions.json
+.DS_Store
+*.log
