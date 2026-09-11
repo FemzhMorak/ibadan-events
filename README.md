@@ -28,7 +28,7 @@ npm run crawl              # crawl all events on the listing page
 node server/crawler/scrape.js --limit=5   # crawl only the first 5, for a quick check
 ```
 
-The server also re-crawls automatically every 6 hours (see `server/scheduler.js`). Set `CRAWL_ON_START=true` in `.env` to also crawl once immediately when the server boots.
+Under traditional/local hosting, the server also re-crawls automatically every 6 hours via `node-cron` (see `server/scheduler.js`); set `CRAWL_ON_START=true` in `.env` to also crawl once immediately when the server boots. On Vercel, `node-cron`'s timers don't survive between serverless invocations, so the recurring crawl is done via a Vercel Cron Job hitting `GET /api/crawl` instead — see [Deploying to Vercel](#deploying-to-vercel).
 
 For each event, the crawler:
 1. Parses the listing page (`li.event-card.event-card-link`) for name, date, venue, banner, price, and — when the source page shows one — a real "N+ Interested" count.
@@ -48,6 +48,26 @@ For each event, the crawler:
 | `GET /api/push/vapid-public-key` | Public VAPID key for push subscriptions |
 | `POST /api/push/subscribe` | Register a push subscription |
 | `POST /api/push/unsubscribe` | Remove a push subscription |
+| `GET /api/crawl?limit=` | Manually trigger a crawl (optionally capped to the first `limit` listing items). Gated by `CRON_SECRET` — see below. |
+| `GET /api/digest` | Manually trigger the morning push digest. Also gated by `CRON_SECRET`. |
+
+## Deploying to Vercel
+
+The app runs on Vercel as a single serverless function (`api/index.js`, which just re-exports the Express app from `server/index.js`) — `vercel.json` rewrites every request to it, so static files, the SPA, and `/api/*` all work exactly as they do locally.
+
+**Environment variables** (Project Settings → Environment Variables):
+- `VAPID_PUBLIC_KEY`, `VAPID_PRIVATE_KEY`, `VAPID_CONTACT_EMAIL` — from `npm run generate-vapid`, if you want push notifications to work.
+- `CRON_SECRET` — any random string. Set this and Vercel automatically sends `Authorization: Bearer <value>` when its Cron Jobs call `/api/crawl` and `/api/digest` (see `vercel.json`), which is exactly what those routes check for. Without it, those endpoints are open to anyone who finds the URL.
+- Do **not** set `TZ` — Vercel reserves that name. It isn't needed anyway; Lagos time is pinned directly in code (`server/lib/time.js`, and `node-cron`'s own `timezone` option locally).
+
+**Cron schedule**: Vercel Cron Jobs run in UTC, and there's no timezone option in `vercel.json` — so the digest is configured as `0 6 * * *` (6:00 UTC), which is 7:00 AM in Africa/Lagos (a fixed UTC+1, no DST). If you ever need a different local time, convert it to UTC yourself before editing the schedule string.
+
+**⚠️ Storage is not durable on Vercel.** The "database" is JSON files written to disk, and Vercel's deployed filesystem is read-only except `/tmp` — so at runtime this app writes to `/tmp` instead (see `server/db.js`), which works, but `/tmp` is wiped on cold starts and isn't shared across instances. In practice: the every-6-hours crawl cron keeps most instances populated most of the time, but you may occasionally see an empty or stale feed right after a cold start, and there's no guarantee two simultaneous requests hit the same warm instance. This is fine for a demo/personal project; for real production use, swap `server/db.js`'s file reads/writes for a real datastore (Vercel KV, Vercel Postgres, Upstash Redis, etc.) — ask if you want that wired up.
+
+**Seeding events after deploy**: since a fresh deployment starts from the bundled `seed-events.json` (copied into `/tmp` on first read), just wait for the first 6-hourly cron run, or trigger one immediately:
+```bash
+curl "https://<your-app>.vercel.app/api/crawl" -H "Authorization: Bearer <your CRON_SECRET>"
+```
 
 ## PWA features
 
@@ -67,14 +87,18 @@ One fixed palette — no theme picker. Design tokens live at the top of `public/
 ## Project layout
 
 ```
+api/
+  index.js              Vercel serverless entry point — re-exports server/index.js
+vercel.json              rewrites, function maxDuration, cron schedule
 server/
-  index.js            Express app entry point
-  db.js                JSON file database helpers
-  scheduler.js         node-cron: 6-hourly crawl, 7am push digest
-  routes/               REST API routes
-  crawler/              allevents.in scraper + Nominatim geocoder
-  push/                  Web Push subscription + digest sending
-  data/                  seed-events.json (committed) + runtime JSON db (gitignored)
+  index.js              Express app (exported; only .listen()s when run directly)
+  db.js                  JSON file database helpers (writes to /tmp on Vercel)
+  lib/time.js             Africa/Lagos day-boundary math, independent of host TZ
+  scheduler.js            node-cron: 6-hourly crawl, 7am push digest (local hosting only)
+  routes/                 REST API routes, including admin.js (crawl/digest triggers)
+  crawler/                allevents.in scraper + Nominatim geocoder
+  push/                   Web Push subscription + digest sending
+  data/                   seed-events.json (committed) + runtime JSON db (gitignored)
 public/
   index.html             all screens (splash, home, detail, map, saved) + search overlay
   css/style.css           design tokens + all component styles

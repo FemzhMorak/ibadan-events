@@ -28,19 +28,20 @@ const cors = require('cors');
 const db = require('./db');
 const eventsRouter = require('./routes/events');
 const pushRouter = require('./routes/push');
+const adminRouter = require('./routes/admin');
 const scheduler = require('./scheduler');
 const { crawl } = require('./crawler/scrape');
 
 db.init();
 
 const app = express();
-const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
 
 app.use('/api/events', eventsRouter);
 app.use('/api/push', pushRouter);
+app.use('/api', adminRouter); // GET /api/crawl, GET /api/digest
 
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
@@ -50,12 +51,23 @@ app.get('*', (req, res, next) => {
   res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
 });
 
-app.listen(PORT, () => {
-  console.log(`IbadanEvents server listening on http://localhost:${PORT}`);
-  scheduler.start();
+// On Vercel this module is required by api/index.js and served as a
+// serverless function per request — there's no long-running process to
+// .listen() on, and node-cron's timers wouldn't survive between
+// invocations anyway (that's what vercel.json's `crons` are for instead).
+// Only bind a port and start the in-process scheduler when this file is
+// actually run directly, i.e. traditional/local hosting.
+if (require.main === module) {
+  const PORT = process.env.PORT || 3000;
+  app.listen(PORT, () => {
+    console.log(`IbadanEvents server listening on http://localhost:${PORT}`);
+    scheduler.start();
 
-  if (process.env.CRAWL_ON_START === 'true') {
-    console.log('[startup] CRAWL_ON_START=true — running an initial crawl');
-    crawl().catch((err) => console.error('[startup] Initial crawl failed:', err));
-  }
-});
+    if (process.env.CRAWL_ON_START === 'true') {
+      console.log('[startup] CRAWL_ON_START=true — running an initial crawl');
+      crawl().catch((err) => console.error('[startup] Initial crawl failed:', err));
+    }
+  });
+}
+
+module.exports = app;

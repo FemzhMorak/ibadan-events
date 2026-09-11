@@ -174,6 +174,26 @@ async function crawl({ limit } = {}) {
   const existingById = new Map(existing.map((e) => [e.id, e]));
   const results = [];
 
+  // Saves whatever has been crawled so far, merged with any previously
+  // crawled events that are still upcoming but weren't seen on this pull
+  // (pagination / ordering can shift). Called after every item — not just
+  // once at the end — so a mid-crawl crash or timeout (a real risk on a
+  // time-limited serverless invocation) still leaves partial progress
+  // persisted instead of losing the whole run.
+  function persistProgress() {
+    const now = Date.now();
+    const seenIds = new Set(results.map((e) => e.id));
+    const merged = [...results];
+    for (const old of existing) {
+      if (seenIds.has(old.id)) continue;
+      const startsAt = old.startDate ? new Date(old.startDate).getTime() : null;
+      if (startsAt && startsAt > now) merged.push(old);
+    }
+    merged.sort((a, b) => new Date(a.startDate || 0) - new Date(b.startDate || 0));
+    db.saveEvents(merged);
+    return merged;
+  }
+
   for (const item of items) {
     try {
       const detail = await fetchEventDetail(item);
@@ -184,23 +204,13 @@ async function crawl({ limit } = {}) {
       const fallback = existingById.get(item.id);
       if (fallback) results.push(fallback);
     }
+    persistProgress();
     await sleep(DETAIL_FETCH_DELAY_MS);
   }
 
-  // Preserve any previously crawled events that are still upcoming but were
-  // not present on this listing pull (pagination / ordering can shift).
-  const now = Date.now();
-  const seenIds = new Set(results.map((e) => e.id));
-  for (const old of existing) {
-    if (seenIds.has(old.id)) continue;
-    const startsAt = old.startDate ? new Date(old.startDate).getTime() : null;
-    if (startsAt && startsAt > now) results.push(old);
-  }
-
-  results.sort((a, b) => new Date(a.startDate || 0) - new Date(b.startDate || 0));
-  db.saveEvents(results);
-  console.log(`[crawler] Saved ${results.length} events to the database`);
-  return results;
+  const finalResults = persistProgress();
+  console.log(`[crawler] Saved ${finalResults.length} events to the database`);
+  return finalResults;
 }
 
 if (require.main === module) {
